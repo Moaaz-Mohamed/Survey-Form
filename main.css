@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("imgs/survey-form-background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+
+}
+h1 , p{
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+
+}
+form{
+    width: 60vw;
+    color: white;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 20px auto;
+    background-color: rgba(27, 27, 50, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+form label{
+    margin: 10px 0;
+}
+label , input{
+    display: block;
+}
+form input{
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+select{
+    padding: 8px;
+    width: 100%;
+    border-radius: 5px;
+}
+.optional{
+    font-size: 14px;
+    opacity: 0.9;
+}
+.two{
+    margin-top: 25px;
+}
+.two input[type="checkbox"]{
+    display: inline;
+    width: unset;
+    vertical-align: text-top
+}
+textarea{
+    resize: none;
+    width: 100%;
+
+}
+input[type="submit"]{
+    background-color: #37af65;
+    color: white;
+    outline: none;
+    border: 0;
+    width: 100%;
+    margin-top: 10px;
+    padding: 13px;
+}
+.three{
+    margin-top: 30px;
+}
